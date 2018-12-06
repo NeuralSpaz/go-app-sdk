@@ -22,6 +22,7 @@ install:
   # - go mod vendor
 
 before_script:
+  - echo $TRAVIS_GO_VERSION
   - docker run -d -p 127.0.0.1:1883:1883 thethingsnetwork/rabbitmq
 
 script:
