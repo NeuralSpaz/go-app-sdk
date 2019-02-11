@@ -3,7 +3,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:f50026964e39d1aa30eb07c6ca12de1371e4e8e6f2de108dbbbb5cd4d816d7a2"
+  digest = "1:678e9c21e58f0be5391963030e8f34f5897fca048495f0cb4ba3943d97b899f3"
   name = "github.com/TheThingsNetwork/api"
   packages = [
     ".",
@@ -19,7 +19,7 @@
   revision = "22ad17f21fd52dca346a3bb4d4c9889dd9636f7d"
 
 [[projects]]
-  digest = "1:3214d6506476068bd1cdab93c4b9ce4a45ae9a0575cc068a49248f435294f750"
+  digest = "1:e1ac5937d0ced9102f3aa699de5d1cf6d3e38ca8b7a61d1b08d62e6d21a46578"
   name = "github.com/TheThingsNetwork/go-account-lib"
   packages = [
     "account",
@@ -37,7 +37,15 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:7a4e02bd59c2447a433c68bdca807c30b1ca9eba8d8077b1e58cf059359a287c"
+  digest = "1:804d7910b1b660de50d1a19abd412090798d37f7074e00686ed71699c8fcb268"
+  name = "github.com/TheThingsNetwork/go-app-sdk"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "cc04392958e82a199efd758b734456f8e736617f"
+
+[[projects]]
+  branch = "master"
+  digest = "1:c03fb6eac11e3a0252c844cbf27953f88857e6be22676957af5616843f71f164"
   name = "github.com/TheThingsNetwork/go-utils"
   packages = [
     "backoff",
@@ -57,7 +65,7 @@
   revision = "94b302f97692ab162f91ef7fef84e7c32598c220"
 
 [[projects]]
-  digest = "1:31807a60f41682e6fbb89cfcc1846a5c7f34412630579d5bbe5dcf4fb6e2cca3"
+  digest = "1:93b70568b127ce37b0ee70592e61f1fdcf5a443f706157aea3ede1f4d5c2dba7"
   name = "github.com/TheThingsNetwork/ttn"
   packages = [
     "api/pool",
@@ -71,7 +79,7 @@
   version = "v2.9.4"
 
 [[projects]]
-  digest = "1:c9febde1065fca567efb4ed578037c6b777d0eff79fa665d20953f41521e388a"
+  digest = "1:5bbabe0c3c7e7f524b4c38193b80bf24624e67c0f3a036c4244c85c9a80579fd"
   name = "github.com/apex/log"
   packages = [
     ".",
@@ -97,7 +105,7 @@
   revision = "3a771d992973f24aa725d07868b467d1ddfceafb"
 
 [[projects]]
-  digest = "1:c829d6b60e09c9bb8cd40dfbef0db8153a7476984e7a8742fc6a87d198359d25"
+  digest = "1:b0d1944be4baaa65c713bccf45fb501405496a4ada9ca028b186cc82d60dc975"
   name = "github.com/brocaar/lorawan"
   packages = [
     ".",
@@ -114,7 +122,7 @@
   revision = "a539ee1a749a2b895533f979515ac7e6e0f5b650"
 
 [[projects]]
-  digest = "1:4c61673d6ba5cb8d910c62f8174a5ace21be59e80fff66d9de38d931944fa2a1"
+  digest = "1:184008c955d6a3226b700c13ed0e875a7a051a759618f9bccba9b5c99f17faa5"
   name = "github.com/eclipse/paho.mqtt.golang"
   packages = [
     ".",
@@ -125,7 +133,7 @@
   version = "v1.1.1"
 
 [[projects]]
-  digest = "1:aba5dd7a1a4fa837ba58827bc050e2a0f3652c84a07df86c2f61ab374d0899b6"
+  digest = "1:3f7c586d2fd571c4f2e3d313c0638b33b999055de507d5f11fafe27e5adc30db"
   name = "github.com/gogo/protobuf"
   packages = [
     "gogoproto",
@@ -147,7 +155,7 @@
   version = "v1.1.1"
 
 [[projects]]
-  digest = "1:5128d4076311c01eed979c9096860f565b7772c806f426131b37240bbc00ccc8"
+  digest = "1:0a7ddae0f9b0357691225e6048e0d4ea0253d94f3f951808df3e0ad556051433"
   name = "github.com/golang/protobuf"
   packages = [
     "jsonpb",
@@ -172,7 +180,7 @@
   version = "v1.2.0"
 
 [[projects]]
-  digest = "1:4df19d38aa8efc5648954a56630305d0c4ad9bd22531c31f9617b110bc12d00e"
+  digest = "1:6a06217fc753e65aea71446b777393009ef6797dadc0086c4f75bd16590be04d"
   name = "github.com/grpc-ecosystem/grpc-gateway"
   packages = [
     "runtime",
@@ -185,7 +193,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:489536052bc7744088c06ea72c3167a1adccfa206056489700daecafdad26a26"
+  digest = "1:db71ee03c191f7f07cb8840e8072bfdef25248108d52d2c529cabb9f0f76a5ae"
   name = "github.com/jacobsa/crypto"
   packages = [
     "cmac",
@@ -203,7 +211,7 @@
   version = "v1.0.1"
 
 [[projects]]
-  digest = "1:0b09325da068c56158958bf7f261af24de874cbbef1448cdf78780be11e048d3"
+  digest = "1:59c6b3ed148b1888901239c91dda4e0491ce528ec14fe656c413428fe9c66970"
   name = "github.com/mwitkow/go-grpc-middleware"
   packages = ["."]
   pruneopts = "UT"
@@ -227,7 +235,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:0f37e09b3e92aaeda5991581311f8dbf38944b36a3edec61cc2d1991f527554a"
+  digest = "1:2d5cd61daa5565187e1d96bae64dbbc6080dacf741448e9629c64fd93203b0d4"
   name = "github.com/prometheus/client_model"
   packages = ["go"]
   pruneopts = "UT"
@@ -235,7 +243,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:4d291d51042ed9de40eef61a3c1b56e969d6e0f8aa5fd3da5e958ec66bee68e4"
+  digest = "1:e469cd65badf7694aeb44874518606d93c1d59e7735d3754ad442782437d3cc3"
   name = "github.com/prometheus/common"
   packages = [
     "expfmt",
@@ -247,7 +255,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:55d7449d6987dabf272b4e81b2f9c449f05b17415c939b68d1e82f57e3374b7f"
+  digest = "1:20d9bb50dbee172242f9bcd6ec24a917dd7a5bb17421bf16a79c33111dea7db1"
   name = "github.com/prometheus/procfs"
   packages = [
     ".",
@@ -259,7 +267,7 @@
   revision = "ae68e2d4c00fed4943b5f6698d504a5fe083da8a"
 
 [[projects]]
-  digest = "1:39195b70e6940a8345e672dbb650e5e340ee1b16652f7462a7f6c5654bc15688"
+  digest = "1:7f7faf148cee89ac3dafe3ba751ee1a13fd83559726a8d281e6ee4cca60c2d82"
   name = "github.com/smartystreets/assertions"
   packages = [
     ".",
@@ -272,7 +280,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:12ceb6e6eec6a49b76651d6913a2c4ce077586ae42421132b60bd2c00e225f35"
+  digest = "1:c2b57e5f2fc07090736110f3e6a09a034fc8c38dc94e796346efc461c65ff1bb"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -292,7 +300,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:88f59611964f1c8800edc47686863dcef65dfec0605a1f69881c759f1d6e1a06"
+  digest = "1:af19f6e6c369bf51ef226e989034cd88a45083173c02ac4d7ab74c9a90d356b7"
   name = "golang.org/x/oauth2"
   packages = [
     ".",
@@ -302,7 +310,7 @@
   revision = "ef147856a6ddbb60760db74283d2424e98c87bff"
 
 [[projects]]
-  digest = "1:7509ba4347d1f8de6ae9be8818b0cd1abc3deeffe28aeaf4be6d4b6b5178d9ca"
+  digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
   name = "golang.org/x/text"
   packages = [
     "collate",
@@ -325,7 +333,7 @@
   version = "v0.3.0"
 
 [[projects]]
-  digest = "1:1df608126759f99976e509eef1645a75a3bb5472d2fc57cf0664444d13915a23"
+  digest = "1:328b5e4f197d928c444a51a75385f4b978915c0e75521f0ad6a3db976c97a7d3"
   name = "google.golang.org/appengine"
   packages = [
     "internal",
@@ -342,7 +350,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:924394986a8dbd26970da8adb0ad37d65fbfcd07d9b55f0e4eebd0a1afaaa890"
+  digest = "1:eff11a4ed88d9d3e28dd697961c550af1c4d0d3dccdc6252715b9a65a1d541bb"
   name = "google.golang.org/genproto"
   packages = [
     "googleapis/api/annotations",
@@ -352,7 +360,7 @@
   revision = "fedd2861243fd1a8152376292b921b394c7bef7e"
 
 [[projects]]
-  digest = "1:4515e3030c440845b046354fd5d57671238428b820deebce2e9dabb5cd3c51ac"
+  digest = "1:2dab32a43451e320e49608ff4542fdfc653c95dcc35d0065ec9c6c3dd540ed74"
   name = "google.golang.org/grpc"
   packages = [
     ".",
@@ -386,7 +394,7 @@
   version = "v1.13.0"
 
 [[projects]]
-  digest = "1:f868d65f564612a6d9575752cbde94423020592306a684b2208b62d8db2522a1"
+  digest = "1:e5a1379b4f0cad2aabd75580598c3b8e19a027e8eed806e7b76b0ec949df4599"
   name = "gopkg.in/redis.v5"
   packages = [
     ".",
@@ -408,6 +416,7 @@
     "github.com/TheThingsNetwork/api/handler",
     "github.com/TheThingsNetwork/api/protocol/lorawan",
     "github.com/TheThingsNetwork/go-account-lib/account",
+    "github.com/TheThingsNetwork/go-app-sdk",
     "github.com/TheThingsNetwork/go-utils/grpc/restartstream",
     "github.com/TheThingsNetwork/go-utils/grpc/rpclog",
     "github.com/TheThingsNetwork/go-utils/grpc/ttnctx",
